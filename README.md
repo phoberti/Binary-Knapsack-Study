@@ -78,50 +78,6 @@ Formato das instâncias de entrada:
 2. Lista de valores (benefícios)
 3. Lista de pesos (custos)
 
----
-
-## Como Compilar e Executar
-
-### Compilar (Linux / Windows com GCC)
-
-```bash
-gcc -o Binary-Knapsack-Greedy-TC main.c
-```
-
-> Se o projeto estiver dividido em vários arquivos `.c`, compile todos:
-
-```bash
-gcc -o Binary-Knapsack-Greedy-TC *.c
-```
-
-### Executar
-
-Sintaxe:
-
-```bash
-./Binary-Knapsack-Greedy-TC [modo] [total_itens] [arquivo_entrada]
-```
-
-No Windows (PowerShell / CMD):
-
-```bash
-.\Binary-Knapsack-Greedy-TC.exe [modo] [total_itens] [arquivo_entrada]
-```
-
-Parâmetros:
-
-* `[modo]`
-
-  * `1` = guloso sem pré-ordenação
-  * `2` = transformar para conquistar (Quick Sort + seleção)
-* `[total_itens]` = quantidade de itens na instância
-* `[arquivo_entrada]` = caminho do arquivo de teste
-
-Exemplo:
-
-```bash
-./Binary-Knapsack-Greedy-TC 2 1000 entradas/Mochila1000.txt
-```
 
 ---
 
